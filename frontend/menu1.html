@@ -11,18 +11,22 @@
         <iframe src="navbar.html" class="navbar-frame"></iframe>
         <div class="content">
             <div class="left-content">
-                <h2>Request - Menu 1 Item 1</h2>
-                <p>Description for Menu 1 Item 1</p>
-                <form id="request-form">
-                    <input type="text" id="input1" placeholder="Input 1" required>
-                    <input type="text" id="input2" placeholder="Input 2" required>
-                    <button type="submit">Submit</button>
-                </form>
+                <div class="form-container">
+                    <form id="form1">
+                        <h2>Request Area 1</h2>
+                        <input type="text" id="input1" placeholder="Input 1" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <form id="form2">
+                        <h2>Request Area 2</h2>
+                        <input type="text" id="input2" placeholder="Input 2" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
             <div class="right-content">
                 <h2>Response</h2>
-                <p class="submenu-title">Menu 1 - Item 1</p>
-                <p>Response will be displayed here.</p>
+                <p id="response-area">Response will be displayed here.</p>
             </div>
         </div>
     </div>
