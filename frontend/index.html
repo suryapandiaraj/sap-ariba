@@ -1,60 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar with Hover Menu</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="script.js"></script>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div class="container">
-      <div class="left-panel">
-        <nav class="navbar">
-          <ul>
-            <li class="menu-item">
-              Menu 1
-              <ul class="submenu">
-                <li data-description="Description for Menu 1 Item 1">Item 1</li>
-                <li data-description="Description for Menu 1 Item 2">Item 2</li>
-                <li data-description="Description for Menu 1 Item 3">Item 3</li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              Menu 2
-              <ul class="submenu">
-                <li data-description="Description for Menu 2 Item 1">Item 1</li>
-                <li data-description="Description for Menu 2 Item 2">Item 2</li>
-                <li data-description="Description for Menu 2 Item 3">Item 3</li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              Menu 3
-              <ul class="submenu">
-                <li data-description="Description for Menu 3 Item 1">Item 1</li>
-                <li data-description="Description for Menu 3 Item 2">Item 2</li>
-                <li data-description="Description for Menu 3 Item 3">Item 3</li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="content" id="content">
-        <div class="left-content" id="left-content">
-          <h2>Request</h2>
-          <p>Select a submenu item to see details here.</p>
-          <form id="request-form">
-            <input type="text" id="input1" placeholder="Input 1" required />
-            <input type="text" id="input2" placeholder="Input 2" required />
-            <button type="submit">Submit</button>
-          </form>
+        <div class="left-panel">
+            <nav class="navbar">
+                <ul>
+                    <li class="menu-item">
+                        <a href="menu1-item1.html">Menu 1</a>
+                        <ul class="submenu">
+                            <li><a href="menu1-item1.html">Item 1</a></li>
+                            <li><a href="menu1-item2.html">Item 2</a></li>
+                            <li><a href="menu1-item3.html">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="menu2-item1.html">Menu 2</a>
+                        <ul class="submenu">
+                            <li><a href="menu2-item1.html">Item 1</a></li>
+                            <li><a href="menu2-item2.html">Item 2</a></li>
+                            <li><a href="menu2-item3.html">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="menu3-item1.html">Menu 3</a>
+                        <ul class="submenu">
+                            <li><a href="menu3-item1.html">Item 1</a></li>
+                            <li><a href="menu3-item2.html">Item 2</a></li>
+                            <li><a href="menu3-item3.html">Item 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="right-content" id="right-content">
-          <h2>Response</h2>
-          <p class="submenu-title">Submenu Item</p>
-          <p>Select a submenu item to see details here.</p>
+        <div class="content">
+            <div class="left-content">
+                <h2>Welcome</h2>
+                <p>Select a menu item to get started.</p>
+            </div>
+            <div class="right-content">
+                <h2>Info</h2>
+                <p>Information will be displayed here.</p>
+            </div>
         </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
